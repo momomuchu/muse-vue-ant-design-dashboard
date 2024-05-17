@@ -2,8 +2,8 @@
 
 	<a-card :bordered="false" class="dashboard-bar-line header-solid">
 		<template #title>
-			<h6>Sales Overview</h6>			
-			<p>than last year <span class="text-success">+20%</span></p>	
+			<h6>Revenue Overview</h6>			
+			<p>than last year <span class="text-success">+420%</span></p>	
 		</template>
 		<template #extra>
 			<a-badge color="primary" class="badge-dot-primary" text="Traffic" />

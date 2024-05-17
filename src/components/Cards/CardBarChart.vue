@@ -8,7 +8,6 @@
 			<p>than last week <span class="text-success">+23%</span></p>
 		</div>
 		<div class="card-content">
-			<p>We have created multiple options for you to put together and customise into pixel perfect pages.</p>
 		</div>
 		<a-row class="card-footer" type="flex" justify="center" align="top">
 			<a-col :span="6">

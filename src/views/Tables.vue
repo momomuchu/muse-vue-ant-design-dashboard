@@ -175,7 +175,7 @@
 	// "Projects" table list of columns and their properties.
 	const table2Columns = [
 		{
-			title: 'COMPANIES',
+			title: 'Features',
 			dataIndex: 'company',
 			scopedSlots: { customRender: 'company' },
 			width: 300,
@@ -263,7 +263,7 @@
 		{
 			key: '6',
 			company: {
-				name: 'Redesign Online Store',
+				name: 'Redesign Online Platform',
 				logo: 'images/logos/logo-invision.svg',
 			},
 			status: "canceled",

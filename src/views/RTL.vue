@@ -116,9 +116,9 @@
 	// Counter Widgets Stats
 	const stats = [
 		{
-			title: "Today’s Sales",
-			value: 53000,
-			prefix: "$",
+			title: "Today’s Revenue",
+			value: 5300,
+			prefix: "€",
 			suffix: "+30%",
 			icon: `
 						<svg width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,7 +129,7 @@
 		},
 		{
 			title: "Today’s Users",
-			value: 3200,
+			value: 1200,
 			suffix: "+20%",
 			icon: `
 						<svg width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +153,7 @@
 		{
 			title: "New Orders",
 			value: 13200,
-			prefix: "$",
+			prefix: "€",
 			suffix: "+10%",
 			icon: `
 						<svg width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +165,7 @@
 	// "Projects" table list of columns and their properties.
 	const tableColumns = [
 		{
-			title: 'COMPANIES',
+			title: 'Features',
 			dataIndex: 'company',
 			scopedSlots: { customRender: 'company' },
 			width: 300,
@@ -250,7 +250,7 @@
 		{
 			key: '6',
 			company: {
-				name: 'Redesign Online Store',
+				name: 'Redesign Online Platform',
 				logo: 'images/logos/logo-invision.svg',
 			},
 			members: [ "images/face-1.jpg", "images/face-4.jpg", "images/face-3.jpg", ],
