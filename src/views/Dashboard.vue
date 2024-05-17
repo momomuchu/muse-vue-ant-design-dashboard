@@ -72,14 +72,12 @@
 			<a-col :span="24" :xl="14" class="mb-24">
 
 				<!-- Information Card 1 -->
-				<CardInfo></CardInfo>
 				<!-- / Information Card 1 -->
 
 			</a-col>
 			<a-col :span="24" :xl="10" class="mb-24">
 
 				<!-- Information Card 2 -->
-				<CardInfo2></CardInfo2>
 				<!-- / Information Card 2 -->
 
 			</a-col>
