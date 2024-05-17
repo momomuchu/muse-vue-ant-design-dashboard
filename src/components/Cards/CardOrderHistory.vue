@@ -8,7 +8,7 @@
 		</template>
 		<a-timeline pending="Recording..." :reverse="timelineReverse">
 			<a-timeline-item color="green">
-				$2,400 - Redesign store
+				€2,400 - Redesign store
 				<p>09 JUN 7:20 PM</p>
 			</a-timeline-item>
 			<a-timeline-item color="green">

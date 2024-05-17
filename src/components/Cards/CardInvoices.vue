@@ -27,7 +27,7 @@
 					:title="item.title"
 					:description="item.code"
 				></a-list-item-meta>
-				<div class="amount">${{ item.amount }}</div>
+				<div class="amount">€{{ item.amount }}</div>
 			</a-list-item>
 		</a-list>
 	</a-card>

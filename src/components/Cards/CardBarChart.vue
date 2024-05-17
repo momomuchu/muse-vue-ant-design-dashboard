@@ -19,7 +19,7 @@
 				<span>Clicks</span>
 			</a-col>
 			<a-col :span="6">
-				<h4>$772</h4>
+				<h4>€772</h4>
 				<span>Revenue</span>
 			</a-col>
 			<a-col :span="6">

@@ -44,13 +44,13 @@
 					</a-list-item-meta>
 					<div class="amount">
 						<span v-if="item.type == 1" class="text-success">
-							+ ${{ item.amount }}
+							+ €{{ item.amount }}
 						</span>
 						<span v-if="item.type == 0" class="text-warning">
 							Pending
 						</span>
 						<span v-if="item.type == -1" class="text-danger">
-							- ${{ item.amount }}
+							- €{{ item.amount }}
 						</span>
 					</div>
 				</template>

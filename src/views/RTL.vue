@@ -116,7 +116,7 @@
 	const stats = [
 		{
 			title: "Today’s Revenue",
-			value: 5300,
+			value: 1300,
 			prefix: "€",
 			suffix: "+30%",
 			icon: `
@@ -139,8 +139,8 @@
 						</svg>`,
 		},
 		{
-			title: "New Clients",
-			value: 1200,
+			title: "New Users",
+			value: 150,
 			prefix: "+",
 			status: "danger",
 			suffix: "-20%",
@@ -150,7 +150,7 @@
 						</svg>`,
 		},
 		{
-			title: "New Orders",
+			title: "New Missions",
 			value: 13200,
 			prefix: "€",
 			suffix: "+10%",
@@ -195,7 +195,7 @@
 				logo: 'images/logos/logo-shopify.svg',
 			},
 			members: [ "images/face-1.jpg", "images/face-4.jpg", "images/face-2.jpg", "images/face-3.jpg", ],
-			budget: '$14,000',
+			budget: '€14,000',
 			completion: 60,
 		},
 		{
@@ -205,7 +205,7 @@
 				logo: 'images/logos/logo-atlassian.svg',
 			},
 			members: [ "images/face-4.jpg", "images/face-3.jpg", ],
-			budget: '$3,000',
+			budget: '€3,000',
 			completion: 10,
 		},
 		{
@@ -229,7 +229,7 @@
 				logo: 'images/logos/logo-spotify.svg',
 			},
 			members: [ "images/face-1.jpg", "images/face-2.jpg", ],
-			budget: '$20,600',
+			budget: '€20,600',
 			completion: {
 				label: '100',
 				status: 'success',
@@ -243,7 +243,7 @@
 				logo: 'images/logos/logo-jira.svg',
 			},
 			members: [ "images/face-1.jpg", "images/face-4.jpg", "images/face-2.jpg", "images/face-3.jpg", ],
-			budget: '$4,000',
+			budget: '€4,000',
 			completion: 80,
 		},
 		{
@@ -253,7 +253,7 @@
 				logo: 'images/logos/logo-invision.svg',
 			},
 			members: [ "images/face-1.jpg", "images/face-4.jpg", "images/face-3.jpg", ],
-			budget: '$2,000',
+			budget: '€2,000',
 			completion: {
 				label: 'Cancelled',
 				status: 'exception',
