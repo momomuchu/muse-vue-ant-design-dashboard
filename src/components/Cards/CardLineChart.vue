@@ -7,7 +7,7 @@
 		</template>
 		<template #extra>
 			<a-badge color="primary" class="badge-dot-primary" text="Traffic" />
-			<a-badge color="primary" class="badge-dot-secondary" text="Sales" />
+			<a-badge color="primary" class="badge-dot-secondary" text="Revenue" />
 		</template>
 		<chart-line :height="310" :data="lineChartData"></chart-line>
 	</a-card>

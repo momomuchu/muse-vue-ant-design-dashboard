@@ -20,7 +20,7 @@
 			</a-col>
 			<a-col :span="6">
 				<h4>$772</h4>
-				<span>Sales</span>
+				<span>Revenue</span>
 			</a-col>
 			<a-col :span="6">
 				<h4>82</h4>
@@ -47,7 +47,7 @@
 				barChartData: {
 					labels: ["01", "02", "03", "04", "05", "06", "07", "08", "09"],
 					datasets: [{
-						label: "Sales",
+						label: "Revenue",
 						backgroundColor: '#fff',
 						borderWidth: 0,
 						borderSkipped: false,
