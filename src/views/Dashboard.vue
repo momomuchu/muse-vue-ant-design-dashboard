@@ -60,7 +60,6 @@
 			<a-col :span="24" :lg="8" class="mb-24">
 
 				<!-- Orders History Timeline Card -->
-				<CardOrderHistory></CardOrderHistory>
 				<!-- / Orders History Timeline Card -->
 
 			</a-col>
@@ -105,7 +104,6 @@
 	import CardProjectTable from '../components/Cards/CardProjectTable' ;
 
 	// Order History card component.
-	import CardOrderHistory from '../components/Cards/CardOrderHistory' ;
 
 	// Information card 1.
 	import CardInfo from '../components/Cards/CardInfo' ;
@@ -269,7 +267,7 @@
 			CardLineChart,
 			WidgetCounter,
 			CardProjectTable,
-			CardOrderHistory,
+
 			CardInfo,
 			CardInfo2,
 		},
